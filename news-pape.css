@@ -1,0 +1,125 @@
+.update{
+    background-color: rgb(61, 61, 61);
+    width: 100%;
+    /* height: 600px; */
+    padding-top: 100px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.update_title{ 
+    top: 10px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    position: relative;
+}
+.update_title h3{
+    font-size: 1.1rem;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+    background-color: rgb(61, 61, 61);
+    position: relative;
+
+}
+.red_line5{
+    position: absolute;
+    top: 10PX;
+    bottom: 0;
+    z-index: 1;
+    -webkit-transform: skewX(-30deg);
+    transform: skewX(-30deg);
+}
+.red_line5:before{
+    display: block;
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 30px;
+    bottom: 0;
+    width: 2px;
+    height: 50px;
+    background-color: #c71220;
+    z-index: 1;
+}
+.red_line5:after{
+    display: block;
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: 50px;
+    bottom: 0;
+    width: 2px;
+    height: 50px;
+    background-color: #c71220;
+    z-index: 1;
+}
+
+
+
+
+.container .update_card{
+    justify-content: space-evenly;
+}
+.container .update_card .update_card1{
+    width: 120px;
+    height: 150px;
+    overflow: hidden;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    margin: 10px;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+.update_card .update_card1 img{
+    width: 100%;
+}
+.uct{
+    padding-top: 3px;
+}
+.update_card .update_card1 p{
+    color: white;
+    text-align: center;
+}
+.uct_img{
+    position: absolute;
+    top:5px;
+    left: 35px;
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+}
+.uct_img img{
+    width: 100%;
+}
+.update_card1:hover{
+    transform:translate(-5px , -10px);
+    transition: .5s;
+    box-shadow: 5px 5px 1.5px rgb(39, 39, 39);
+}
+.update_card1:hover .head_img{
+    opacity: 0.5;
+    transition: .5s;
+}
+.update_card1:hover .uct_img{
+    opacity: 1;
+    transition: .5s;
+}
+.update .update_hpbg{
+    position: absolute;
+    width: 375px;
+    height: 200px;
+    left: 0%;
+    top: 150px;
+    opacity: 0.2;
+    -webkit-animation-name: light;
+    animation-name: light;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    z-index: 0;
+}
+.update .update_hpbg img{
+    width: 100%;
+    z-index: 0;
+}

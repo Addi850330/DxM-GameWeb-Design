@@ -1,0 +1,192 @@
+@media screen and (min-width: 991px){
+    
+    .battle_file{
+        height: 790px;
+    }
+    .battle_file_title{ 
+        margin-left: 350px;
+        top: 150px;
+    }
+    .battle_file_title h3{
+        font-size: 1.8rem;
+    
+    }
+    .red_line7:before{
+        left: 70px;
+        height: 70px;
+    }
+    .red_line7:after{
+        top: -30px;
+        left: 90px;
+        height: 70px;
+    }
+    .bf_bg_img{
+        width: 350px;
+        left: 550px;
+    }
+    .bf_bg_img img{
+        width: 100%;
+    }
+    .bf_text{
+        width: 300px;
+        left: 350px;
+        top: 150px;
+    }
+    .bt1 p{
+        font-size: 2rem;
+    }
+    .bt1 span{
+        font-size: 1.5rem;
+    }
+    .bt2 p{
+        font-size: 2rem;
+    }
+    .bt2 span{
+        font-size: 1.5rem;
+    }
+    .bt3 p{
+        font-size: 2rem;
+    }
+    .bt3 span{
+        font-size: 1.5rem;
+    }
+    .bt4 p{
+        font-size: 2rem;
+    }
+    .bt4 span{
+        font-size: 1.5rem;
+    }
+    .bt5 p{
+        font-size: 2rem;
+    }
+    .bt5 span{
+        font-size: 1.5rem;
+    }
+    /* --------- */
+    .bf_img{
+        position: absolute;
+        right: 450px;
+        top: 60px;
+        width:50px ;
+        height: 160px;
+        z-index: 2;
+    }
+    .bi1{
+        width: 900px;
+        height: 700px;
+    }
+    .bi2{
+        width: 900px;
+        height: 700px;
+    }
+    .bi3{
+        width: 900px;
+        height: 700px;
+    }
+    .bi4{
+        width: 900px;
+        height: 700px;
+    }
+    .bi5{
+        width: 650px;
+        height: 600px;
+    }
+    .shadow_img{
+    left: 810px;
+    top: 60px;
+    }
+    .si1{
+        width: 900px;
+        height: 700px;
+    }
+    .si2{
+        width: 900px;
+        height: 700px;
+    }
+    .si3{
+        width: 900px;
+        height: 700px;
+    }
+    .si4{
+        width: 900px;
+        height: 700px;
+    }
+    .si5{
+        width:700px;
+        height: 600px;
+    }
+    /* --------btn------ */
+    .bf_btn{
+        top:350px
+    }
+    .bb1 img{
+        width: 140px;
+        height: 110px;
+    }
+    .bb2{
+        left: 90px;
+    }    
+    .bb2 img{
+        width: 140px;
+        height: 110px;
+    }
+    .bb3{
+        left: 180px;
+    }    
+    .bb3 img{
+        width: 140px;
+        height: 110px;
+    }
+    .bb4{
+        position: absolute;
+        top: 80px;
+        left: 270px;
+    }    
+    .bb4 img{
+        width: 140px;
+        height: 110px;
+    }
+    .bb5{
+        position: absolute;
+        top: 80px;
+        left: 360px;
+    }    
+    .bb5 img{
+        width: 140px;
+        height: 110px;
+    }
+    .game_video{
+        height: 800px;
+    }
+    .game_video_title{
+        margin-left: 350px;
+        top: 50px;
+    }
+    .game_video_title h3{
+        font-size: 1.8rem;
+    }
+    .red_line6:before{
+        left: 70px;
+        height: 70px;
+    }
+    .red_line6:after{
+        top: -30px;
+        left: 90px;
+        height: 70px;
+    }
+    .pv{
+        width: 960px;
+        height: 720px;
+        }
+    .game_video video{
+        width: 960px;
+        height: 720px;
+        margin:60px 30px 30px 460px;
+        }
+    .game_video_bg{
+        width: 400px;
+        height: 400px;
+        left:1250px;
+        top:-400px;
+    }
+}

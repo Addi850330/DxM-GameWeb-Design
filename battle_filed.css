@@ -1,0 +1,510 @@
+.battle_file{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+.battle_file_title{ 
+    top: 75px;
+    margin-bottom: 30px;
+    margin-left: 230px;
+    position: relative;
+}
+.battle_file_title h3{
+    font-size: 1.1rem;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+
+}
+.red_line7{
+    position: absolute;
+    top: 10PX;
+    bottom: 0;
+    z-index: 0;
+    -webkit-transform: skewX(-30deg);
+    transform: skewX(-30deg);
+}
+.red_line7:before{
+    display: block;
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 30px;
+    bottom: 0;
+    width: 2px;
+    height: 50px;
+    background-color: #fa1313;
+    z-index: 0;
+}
+.red_line7:after{
+    display: block;
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: 50px;
+    bottom: 0;
+    width: 2px;
+    height: 50px;
+    background-color: #ff0000;
+    z-index: 0;
+}
+.bf_bg_img{
+    position: absolute;
+    opacity: 0.6;
+    -webkit-animation-name: light;
+    animation-name: light;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    z-index: 1;
+}
+.bf_inner{
+    position: relative;
+    /* border: 1px solid black; */
+    top: 50px;
+    height: 255px;
+}
+/* ------字---------- */
+.bf_text{
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    width: 150px;
+    height: 20px;
+    /* border: 1px solid black; */
+    z-index: 4;
+}
+.bt1{
+    position: absolute;
+    opacity: 0;
+}
+.bt1 p{
+    color: white;
+    font-weight: 500;
+}
+.bt1 span{
+    font-size: 0.8rem;
+    color: white;
+}
+.bt2{
+    position: absolute;
+    opacity: 0;
+}
+.bt2 p{
+    color: white;
+    font-weight: 500;
+}
+.bt2 span{
+    font-size: 0.8rem;
+    color: white;
+}
+.bt3{
+    position: absolute;
+    opacity: 0;
+}
+.bt3 p{
+    color: white;
+    font-weight: 500;
+}
+.bt3 span{
+    font-size: 0.8rem;
+    color: white;
+}
+.bt4{
+    position: absolute;
+    opacity: 0;
+}
+.bt4 p{
+    color: white;
+    font-weight: 500;
+}
+.bt4 span{
+    font-size: 0.8rem;
+    color: white;
+}
+.bt5{
+    position: absolute;
+    opacity: 0;
+}
+.bt5 p{
+    color: white;
+    font-weight: 500;
+}
+.bt5 span{
+    font-size: 0.8rem;
+    color: white;
+}
+.bt_show{
+    opacity: 1;
+    transition: .5s;
+}
+/* ------字---------- */
+/* ------------圖--------- */
+.bf_img{
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    width:50px ;
+    height: 50px;
+    z-index: 3;
+}
+.bi1{
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    transform: translate(-10%, 0%);
+    opacity: 0;
+}
+.bi1 img{
+    width: 100%;
+}
+.bi2{
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    transform: translate(-10%, 0%);
+    opacity: 0;
+}
+.bi2 img{
+    width: 100%;
+}
+.bi3{
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    transform: translate(-10%, 0%);
+    opacity: 0;
+}
+.bi3 img{
+    width: 100%;
+}
+.bi4{
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    transform: translate(-10%, 0%);
+    opacity: 0;
+}
+.bi4 img{
+    width: 100%;
+}
+.bi5{
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    transform: translate(-10%, 0%);
+    opacity: 0;
+}
+.bi5 img{
+    width: 100%;
+}
+.bi_show{
+    transform: translate(0%, 0%);
+    opacity: 1;
+    transition: .5s;
+}
+/* -----shadow--------- */
+.shadow_img{
+    position: absolute;
+    left: 10px;
+    top: 60px;
+    width:50px ;
+    height: 50px;
+    z-index: 1;
+}
+.si1{
+    position: absolute;
+    left: 0px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    transform: translate(10%, 0%);
+    opacity: 0;
+}
+.si1 img{
+    width: 100%;
+    
+}
+.si2{
+    position: absolute;
+    left: 0px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    transform: translate(10%, 0%);
+    opacity: 0;
+}
+.si2 img{
+    width: 100%;
+}
+.si3{
+    position: absolute;
+    left: 0px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    transform: translate(10%, 0%);
+    opacity: 0;
+}
+.si3 img{
+    width: 100%;
+}
+.si4{
+    position: absolute;
+    left: 0px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    transform: translate(10%, 0%);
+    opacity: 0;
+}
+.si4 img{
+    width: 100%;
+}
+.si5{
+    position: absolute;
+    left: 0px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    transform: translate(10%, 0%);
+    opacity: 0;
+}
+.si5 img{
+    width: 100%;
+}
+.si_show{
+    transform: translate(0%, 0%);
+    opacity: 1;
+    transition: .5s;
+}
+/* ------------圖--------- */
+
+.bf_btn{
+    position: relative;
+    top: 190px;
+    left: 10%;
+    width: 70%;
+    height: 100px;
+    z-index: 5;
+    /* border: 1px solid red; */
+}
+.bb1{
+    position: absolute;
+    top: 80px;
+    width: 80px;
+    height: 80px;
+    
+}
+.bb1:hover{
+    transform: translate(0%, -10px);
+    transition: .5s;
+}
+.bb1:hover img{
+    opacity: 1;
+}
+.bb1 img{
+    width: 60px;
+    height: 55px;
+    background-color: black;
+    object-fit: cover;
+    clip-path: polygon(50% 0, 100% 0%, 50% 100%, 0% 100%);
+    object-position: left bottom;
+    opacity: 0.5;
+}
+.bb2{
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    width: 80px;
+    height: 80px;
+}
+.bb2:hover{
+    transform: translate(0%, -10px);
+    transition: .5s;
+}
+.bb2:hover img{
+    opacity: 1;
+}
+.bb2 img{
+    width: 60px;
+    height: 55px;
+    background-color: black;
+    object-fit: cover;
+    clip-path: polygon(50% 0, 100% 0%, 50% 100%, 0% 100%);
+    object-position: left 80%;
+    opacity: 0.5;
+}
+.bb3{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    width: 80px;
+    height: 80px;
+}
+.bb3:hover{
+    transform: translate(0%, -10px);
+    transition: .5s;
+}
+.bb3:hover img{
+    opacity: 1;
+}
+.bb3 img{
+    width: 60px;
+    height: 55px;
+    background-color: black;
+    object-fit: cover;
+    clip-path: polygon(50% 0, 100% 0%, 50% 100%, 0% 100%);
+    object-position: left 50%;
+    opacity: 0.5;
+}
+.bb4{
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    width: 80px;
+    height: 80px;
+}
+.bb4:hover{
+    transform: translate(0%, -10px);
+    transition: .5s;
+}
+.bb4:hover img{
+    opacity: 1;
+}
+.bb4 img{
+    width: 60px;
+    height: 55px;
+    background-color: black;
+    object-fit: cover;
+    clip-path: polygon(50% 0, 100% 0%, 50% 100%, 0% 100%);
+    object-position: 20% 60%;
+    opacity: 0.5;
+}
+.bb5{
+    position: absolute;
+    top:80px;
+    left: 200px;
+    width: 80px;
+    height: 80px;
+}
+.bb5:hover{
+    transform: translate(0%, -10px);
+    transition: .5s;
+}
+.bb5:hover img{
+    opacity: 1;
+}
+.bb5 img{
+    width: 60px;
+    height: 55px;
+    background-color: black;
+    object-fit: cover;
+    clip-path: polygon(50% 0, 100% 0%, 50% 100%, 0% 100%);
+    object-position: left bottom;
+    object-position: 20% 50%;
+    opacity: 0.5;
+}
+/* ------------------------- */
+.game_video{
+    width: 100%;
+    height: 400px;
+    background: rgb(158, 17, 17);
+    background-image: url(./images/pvbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.game_video_title{ 
+    top: 25px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    position: relative;
+}
+.game_video_title h3{
+    font-size: 1.1rem;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+    background-color: rgba(158, 17, 17, 0);
+    position: relative;
+
+}
+.red_line6{
+    position: absolute;
+    top: 10PX;
+    bottom: 0;
+    z-index: 1;
+    -webkit-transform: skewX(-30deg);
+    transform: skewX(-30deg);
+}
+.red_line6:before{
+    display: block;
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 30px;
+    bottom: 0;
+    width: 2px;
+    height: 50px;
+    background-color: #fa131369;
+    z-index: 1;
+}
+.red_line6:after{
+    display: block;
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: 50px;
+    bottom: 0;
+    width: 2px;
+    height: 50px;
+    background-color: #ff000059;
+    z-index: 1;
+}
+.pv{
+width: 320px;
+height: 240px;
+}
+.game_video video{
+/* position: relative; */
+left: 0;
+right: 0;
+top: 0px;
+width: 320px;
+height: 240px;
+margin:60px 30px 30px 30px;
+}
+.game_video_bg{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left:140px;
+    top:-100px;
+}
+.game_video_bg img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.gvb1{
+    opacity: 0.4;
+    animation: roll 10s linear infinite;
+}
+.gvb2{
+    opacity: 0.4;
+    animation: roll2 10s linear infinite;
+}
+    

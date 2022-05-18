@@ -1,0 +1,138 @@
+@media screen and (min-width: 991px){
+    .download .buy_conect{
+        height: 500px;
+    }
+    .bc_title h3 I{
+        font-size: 1.6rem;
+    }
+    .bc_title .red_line3:before{
+        display: block;
+        content: "";
+        position: absolute;
+        top: -15px;
+        left: -80px;
+        bottom: 0;
+        width: 2px;
+        height: 60px;
+        background-color: #c7122163;
+        z-index: 1;
+    }
+    .bc_title .red_line3:after{
+        display: block;
+        content: "";
+        position: absolute;
+        top: -25px;
+        left: -60px;
+        bottom: 0;
+        width: 2px;
+        height: 60px;
+        background-color: #c7122175;
+        z-index: 1;
+    }
+    .bcc .pc_conect{
+    width: 300px;
+    height:200px;
+    border-radius: 10px;
+    overflow: hidden;
+    }
+    .bcc .pc_conect p{
+        font-size: 1.5rem;
+    }
+    .pc_conect .pcc{
+        margin-top: 30px;
+    }
+    .pc_conect .pcc a img{
+        width: 80px;
+    }
+    .bcc .ns_conect{
+        width: 150px;
+        height: 200px;
+        border: 1px solid red;
+        text-align: center;
+        background-color: rgb(241, 241, 241);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .ns_conect p{
+        font-size: 1.5rem;
+    }
+    .bcc .ns_conect a img{
+        margin-top: 20px;
+        width: 100px;
+        height: 100px;
+        opacity: 0.8;
+    }
+    /* -----------pc-system---------- */
+    .ls p{
+        background-color: rgb(75, 75, 75);
+        margin: auto;
+        color: white;
+        padding: 5px;
+        font-size: 1rem;
+        position: relative;
+    }
+    .ls .ls_sct1{
+        top: 190px;
+        left: 240px;
+    }
+    .ls .ls_sct2{
+        top: 190px;
+        left: 270px;
+
+    }
+    .ls .ls_sct3{
+        top: 190px;
+        left: 300px;
+    }
+    .hs p{
+        background-color: rgb(75, 75, 75);
+        margin: auto;
+        color: white;
+        padding: 5px;
+        font-size: 1rem;
+        position: relative;
+    }
+    .hs .ls_sct1{
+        top: 190px;
+        left: 240px;
+    }
+    .hs .ls_sct2{
+        top: 190px;
+        left: 270px;
+
+    }
+    .hs .ls_sct3{
+        top: 190px;
+        left: 300px;
+    }
+}
+@media screen and (min-width: 1280px){
+.buy_conect .bc_title{ 
+        margin-left: 280px;
+    }
+.bc_title .red_line3:before{
+        left: -160px;
+    }
+.bc_title .red_line3:after{
+        left: -140px;
+    }
+    /* ----doenload---- */
+.system{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.system .system_title{
+    margin-left: 280px;
+}
+.system .system_title h3{
+    font-size: 1.6rem;
+}
+.system .red_line4:before{
+    left: 50px;
+    height: 60px;
+}
+.system .red_line4:after{
+    left: 70px;
+    height: 60px;
+}
+}

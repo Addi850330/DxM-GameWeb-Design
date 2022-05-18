@@ -1,0 +1,766 @@
+@media screen and (min-width: 575px){
+/* ------------header--------- */
+.hero_video{
+    height: 340px;
+}
+.hero_title{
+    position: absolute;
+    top: 100px;
+    right: 50px;
+}
+.hero_title img{
+    width:270px ;
+    height: 110px;
+}
+.hero_text{
+    position: absolute;
+    top: 180px;
+    right: 55px;
+    width:260px ;
+    height: 40px;
+}
+.hero_text h5{
+    font-size: 1.2rem;
+}
+.scroll{
+    position: absolute;
+    left: 10px;
+    top: 280px;
+    width: 50px;
+}
+.scroll a{
+    font-size: 15px;
+}
+.scroll a::after{
+    margin: -5px 0 0;
+    background-size: 15px 15px;
+    right: -25px;
+}
+/* ---------hero----------------------- */
+.news_inner h4{
+    font-size: 1.2rem;
+    padding: 0.7rem;
+}
+.news_inner p{
+    font-size: 0.9rem;
+    padding: 10px;
+}
+/* -----------news------------ */
+.about h3{
+    font-size: 1.6rem;
+}
+.red_line:before{
+    left: 22%;
+}
+.red_line:after{
+    left: 30%;
+}
+.about h6{
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+.about .about_title{
+    font-size: 1.3rem;
+    font-weight: 800;
+    padding-bottom: 0.5rem;
+}
+.about .about_inner{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.about .about_inner span{
+    color: rgb(250, 39, 39);
+    font-size: 1rem;
+    font-weight: 800;
+}
+/* ---------about------------------ */
+.story{
+    height: 420px;
+}
+.story_bg{
+    width: 100%;
+    height: 280px;
+}
+.story_sct{
+    left: 120px;
+    width: 200px;
+    height: 320px;
+}
+.story_inner{
+    left: 160px;
+    width: 230px;
+}
+.story_inner h3{
+    font-size: 1.8rem;
+}
+.story_inner p{
+    font-size: 1.2rem;
+}
+.story_inner2{
+    top: 170px;
+    left: 350px;
+}
+.story_inner_sct{
+    top: 300px;
+    left: 19%;
+    width: 70%;
+    height: 100px;
+}
+.sis1{
+    top: -65px;
+}
+.sis1 img{
+    width: 180px;
+    height: 180px;
+}
+.sis2{
+    position: absolute;
+    top: -65px;
+    left: 105px;
+}
+.sis2 img{
+    width: 180px;
+    height: 180px;
+}
+.sis3{
+    position: absolute;
+    top: -65px;
+    left: 210px;
+}
+.sis3 img{
+    width: 180px;
+    height: 180px;
+}
+.sis4{
+    position: absolute;
+    top: -65px;
+    left: 315px;
+}
+.sis4 img{
+    width: 180px;
+    height: 180px;
+}
+/* ----------story------------------ */
+.bgc1 h3{
+    font-size: 1.6rem;
+}
+/* -----------features-------------------- */
+.gpm{
+    height: 520px;
+}
+.red_line2:before{
+    left: -40px;
+}
+.red_line2:after{
+    left: -20px;
+}
+.gpm_card{
+    margin-top: 30px;
+    width: 150px;
+    height: 190px;
+}
+.gpm_card h4{
+    font-size: 1.6rem;
+    top: 60px;
+    left: 45px;
+}
+.gmp_border{
+    width: 510px;
+    left: 40px;
+}
+.gmp_border h4{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.gmp_border p{
+    font-size: 1.4rem;
+}
+/* -----------gpm575----------------- */
+.social_icon{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.social_icon i{
+    font-size: 1.8rem;
+}
+/* -----------socail--------------- */
+
+
+
+
+
+/* ----------footer--------------- */
+}
+@media screen and (min-width: 770px){
+    .hero_video{
+        height: 450px;
+    }
+    .hero_title{
+        position: absolute;
+        top: 100px;
+        right: 50px;
+    }
+    .hero_title img{
+        width:380px ;
+        height: 180px;
+    }
+    .hero_text{
+        top: 230px;
+        right: 80px;
+        width:320px ;
+    }
+    .hero_text h5{
+        font-size: 1.5rem;
+    }
+    .scroll{
+        position: absolute;
+        left: 30px;
+        top: 370px;
+        width: 50px;
+    }
+    .scroll a{
+        font-size: 18px;
+    }
+    .scroll a::after{
+        margin: -8px 0 0;
+        background-size: 18px 18px;
+        right: -35px;
+    }
+    /* ---------hero----------------------- */
+    .news_inner h4{
+        font-size: 1.5rem;
+        padding: 0.8rem;
+    }
+    .news_inner p{
+        font-size: 1.1rem;
+        padding: 15px;
+    }
+    /* -----------news------------ */
+    .about h3{
+        font-size: 1.8rem;
+    }
+    .red_line:before{
+        left: 22%;
+    }
+    .red_line:after{
+        left: 30%;
+    }
+    .about h6{
+        font-size: 1rem;
+        padding-bottom: 0.5rem;
+    }
+    .about .about_title{
+        font-size: 1.6rem;
+        font-weight: 800;
+        padding-bottom: 0.5rem;
+    }
+    .about .about_inner{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .about .about_inner span{
+        color: rgb(250, 39, 39);
+        font-size: 1.3rem;
+        font-weight: 800;
+    }
+    /* -------------------about------------ */
+    .story{
+        height: 520px;
+    }
+    .story_bg{
+        width: 100%;
+        height: 380px;
+    }
+    .story_sct{
+        left: 150px;
+        width: 300px;
+        height: 420px;
+    }
+    .story_inner{
+        top: 100px;
+        left: 200px;
+        width: 240px;
+    }
+    .story_inner h3{
+        font-size: 2rem;
+    }
+    .story_inner p{
+        font-size: 1.5rem;
+    }
+    .story_inner2{
+        top: 250px;
+        left: 450px;
+        font-size: 1.2rem;
+        width: 290px;
+    }
+    .story_inner_sct{
+        top: 400px;
+        left: 19%;
+        width: 70%;
+        height: 100px;
+    }
+    .sis1{
+        top: -95px;
+    }
+    .sis1 img{
+        width: 220px;
+        height: 220px;
+    }
+    .sis2{
+        position: absolute;
+        top: -95px;
+        left: 125px;
+    }
+    .sis2 img{
+        width: 220px;
+        height: 220px;
+    }
+    .sis3{
+        position: absolute;
+        top: -95px;
+        left: 250px;
+    }
+    .sis3 img{
+        width: 220px;
+        height: 220px;
+    }
+    .sis4{
+        position: absolute;
+        top: -95px;
+        left: 375px;
+    }
+    .sis4 img{
+        width: 220px;
+        height: 220px;
+    }
+    /* ----------story------------------ */
+    .bgc1 h3{
+        font-size: 1.6rem;
+    }
+    .red_line1{
+        left: -110px;
+    }
+    .f_bg1{
+        height: 200px;
+    }
+    .f_sct1{
+        top: -10px;
+        left: 70px;
+        width: 150px;
+        height: 220px;
+    }
+    .f_sct_text1{
+        top: 30px;
+        left: 40px;
+        width: 310px;
+    }
+    .f_sct_text1 h3{
+        font-size: 2.5rem;
+    }
+    .f_sct_text1 p{
+        font-size: 1.5rem;
+    }
+    .f_bg2{
+        height: 200px;
+    }
+    .f_sct2{
+        top: -10px;
+        right: 70px;
+        width: 150px;
+        height: 220px;
+    }
+    .f_sct_text2{
+        top: 30px;
+        right: 40px;
+        width: 290px;
+    }
+    .f_sct_text2 h3{
+        font-size: 2.5rem;
+    }
+    .f_sct_text2 p{
+        font-size: 1.5rem;
+    }
+    .f_bg3{
+        height: 200px;
+    }
+    .f_sct3{
+        top: -10px;
+        left: 70px;
+        width: 150px;
+        height: 220px;
+    }
+    .f_sct_text3{
+        top: 30px;
+        left: 40px;
+        width: 310px;
+    }
+    .f_sct_text3 h3{
+        font-size: 2.5rem;
+    }
+    .f_sct_text3 p{
+        font-size: 1.5rem;
+    }
+    .f_bg4{
+        height: 200px;
+    }
+    .f_sct4{
+        top: -10px;
+        right: 70px;
+        width: 150px;
+        height: 220px;
+    }
+    .f_sct_text4{
+        top: 30px;
+        right: 40px;
+        width: 310px;
+    }
+    .f_sct_text4 h3{
+        font-size: 2.5rem;
+    }
+    .f_sct_text4 p{
+        font-size: 1.5rem;
+    }
+    /* -----------features-------------------- */
+    .gpm{
+        height: 600px;
+    } 
+    .red_line2:before{
+        left: -60px;
+    }
+    .red_line2:after{
+        left: -40px;
+    }
+    .gpm_card{
+        margin-top: 30px;
+        width: 200px;
+        height: 240px;
+    }
+    .gpm_card h4{
+        font-size: 1.8rem;
+        top: 75px;
+        left: 65px;
+    }
+    .gmp_border{
+        width: 660px;
+        left: 55px;
+    }
+    .gmp_border h4{
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+    .gmp_border p{
+        font-size: 1.4rem;
+    }
+    /* --------gpm----------------- */
+    .social_icon{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .social_icon i{
+        font-size: 1.9rem;
+    }
+    /* -----------socail--------------- */
+}
+@media screen and (min-width: 991px){
+    .hidden_button{
+        display: none;
+    }
+    /* ----------header--------- */
+    .hero_video{
+        height: 580px;
+    }
+    .hero_title{
+        position: absolute;
+        top: 160px;
+        right: 90px;
+    }
+    .hero_title img{
+        width:500px ;
+        height: 210px;
+    }
+    .hero_text{
+        position: absolute;
+        top: 310px;
+        right: 125px;
+        width:430px ;
+    }
+    .hero_text h5{
+        font-size: 2rem;
+    }
+    .scroll{
+        left: 60px;
+        top: 450px;
+        width: 50px;
+    }
+    .scroll a{
+        font-size: 25px;
+    }
+    .scroll a::after{
+        margin: -8px 0 0;
+        background-size: 25px 25px;
+        right: -65px;
+        width: 25px;
+    }
+    /* ---------hero----------------------- */
+    .news_inner h4{
+        font-size: 1.6rem;
+        padding: 0.8rem 1rem;
+    }
+    .news_inner p{
+        font-size: 1.2rem;
+        padding: 15px 20px;
+    }
+    /* -----------news------------ */
+    .about h3{
+        font-size: 2rem;
+    }
+    .red_line:before{
+        left: 90px;
+    }
+    .red_line:after{
+        left: 110px;
+    }
+    .about h6{
+        font-size: 1.5rem;
+        padding-bottom: 0.8rem;
+    }
+    .about .about_title{
+        font-size: 2rem;
+        font-weight: 800;
+        padding-bottom: 0.8rem;
+    }
+    .about .about_inner{
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    .about .about_inner span{
+        color: rgb(250, 39, 39);
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    /* -------------------about------------ */
+    .story{
+        height: 620px;
+    }
+    .story_bg{
+        width: 100%;
+        height: 450px;
+    }
+    .story_sct{
+        left: 150px;
+        width: 400px;
+        height: 490px;
+    }
+    .story_inner{
+        top: 120px;
+        left: 200px;
+        width: 300px;
+    }
+    .story_inner h3{
+        font-size: 2.5rem;
+    }
+    .story_inner p{
+        font-size: 1.8rem;
+    }
+    .story_inner2{
+        top: 250px;
+        left: 570px;
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        width: 400px;
+    }
+    .story_inner_sct{
+        top: 480px;
+        left: 25%;
+        width: 70%;
+        height: 100px;
+    }
+    .sis1{
+        top: -135px;
+    }
+    .sis1 img{
+        width: 280px;
+        height: 280px;
+    }
+    .sis2{
+        position: absolute;
+        top: -135px;
+        left: 160px;
+    }
+    .sis2 img{
+        width: 280px;
+        height: 280px;
+    }
+    .sis3{
+        position: absolute;
+        top: -135px;
+        left: 320px;
+    }
+    .sis3 img{
+        width: 280px;
+        height: 280px;
+    }
+    .sis4{
+        position: absolute;
+        top: -135px;
+        left: 480px;
+    }
+    .sis4 img{
+        width: 280px;
+        height: 280px;
+    }
+    /* ----------story------------------ */
+    .bgc1 h3{
+        font-size: 1.6rem;
+    }
+    /* ------------features---------------------- */
+    .gpm{
+        height: 620px;
+    } 
+    .red_line2:before{
+        left: -80px;
+    }
+    .red_line2:after{
+        left: -60px;
+    }
+    .gpm_card h4{
+        font-size: 1.9rem;
+        top: 75px;
+        left: 65px;
+    }
+    .gmp_border{
+        width: 800px;
+        left: 100px;
+    }
+    .gmp_border h4{
+        font-size: 1.9rem;
+        font-weight: 600;
+    }
+    .gmp_border p{
+        font-size: 1.6rem;
+    }
+    /* --------gpm----------------- */
+    .social_icon i{
+        font-size: 2rem;
+    }
+    /* -------social------------------ */
+}
+@media screen and (min-width: 1280px){
+    .hero_video{
+        height: 780px;
+    }
+    .hero_title{
+        position: absolute;
+        top: 230px;
+        right: 490px;
+    }
+    .hero_text{
+        top: 370px;
+        right: 530px;
+    }
+    /* -------------- */
+    .red_line:before{
+        left: 100px;
+    }
+    .red_line:after{
+        left: 120px;
+    }
+    /* --------- */
+    .story_sct{
+        left: 450px;
+    }
+    .story_inner{
+        left: 500px;
+    }
+    .story_inner2{
+        left: 900px;
+    }
+    .story_inner_sct{
+        left:450px;
+    }
+    /* ----------- */
+    .bgc1 h3{
+        padding-left: 430px;
+    }
+    .red_line1:before{
+        left: 310px;
+    }
+    .red_line1:after{
+        left: 330px;
+    }
+    /* --------------- */
+    .f_bg1{
+        background-position: 40% 60%;
+    }
+    .f_sct1{
+        left: 350px;
+    }
+    .f_sct_text1{
+        left: 350px;
+    }
+    .f_bg2{
+        background-position: 50% 67%;
+    }
+    .f_sct2{
+        right: 350px;
+    }
+    .f_sct_text2{
+        right: 350px;
+    }
+    .f_sct3{
+        left: 350px;
+    }
+    .f_sct_text3{
+        left: 350px;
+    }
+    .f_sct4{
+        right: 350px;
+    }
+    .f_sct_text4{
+        right: 350px;
+    }
+    /* ---------- */
+    .gpm_tilte{
+        margin-left: 400px;
+    }
+    .gmp_border{
+        width: 800px;
+        top: 0px;
+        left: 220px;
+        padding: 5px;
+    }
+    .scroll{
+        left: 100px;
+        top: 650px;
+    }
+    .gmp_border{
+        left: 515px;
+        width: 870px;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 991px){
+.header_inner ul{
+        display: none;
+    }
+}
+@media screen and (max-width: 570px){
+    .story_inner2{
+        display: none;
+    }
+}
+@media screen and (max-width: 380px){
+.footer_text2{
+    display: none;
+}
+footer span{
+    display: none;
+}
+}

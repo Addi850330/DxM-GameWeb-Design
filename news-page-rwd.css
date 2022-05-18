@@ -1,0 +1,49 @@
+@media screen and (min-width: 991px){
+.container .update_card .update_card1{
+        width: 240px;
+        height: 280px;
+        margin: 10px;
+        margin-bottom: 40px;
+        border-radius: 20px;
+    }
+    .update_card .update_card1 p{
+        font-size: 1.7rem;
+    }
+    .uct_img{
+        position: absolute;
+        top:15px;
+        left: 70px;
+        width: 100px;
+        height: 100px;
+        opacity: 0.3;
+    }
+    .update .update_hpbg{
+        width: 500px;
+        top: 200px;
+        left: 25%;
+    }
+}
+@media screen and (min-width: 1280px){
+    .update .update_hpbg{
+        top: 200px;
+        left: 36%;
+    }
+    .container .update_card .update_card1{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .update .update_title{
+        margin-left: 280px;
+    }
+    .update .update_title h3{
+        font-size: 1.6rem;
+    }
+    .update .red_line5:before{
+        left: 50px;
+        height: 60px;
+    }
+    .update .red_line5:after{
+        left: 70px;
+        height: 60px;
+    }
+}
